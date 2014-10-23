@@ -1,51 +1,79 @@
-header img{
+/* Balises HTML5 */
 
-	
+header {
+
+	height: 100px;	
 
 }
+
+nav {
+
+	size : 200px 400px;
+	width: 1039px; 
+	margin-top: 16px;
+	float: right;
+	background-color: black;
+
+	
+}
+
 
 body {
     background-color: white;
     color: black;
+    padding: 0px;
+
 }
 
-
-* li {
+nav li {
 	
-	display : inline;
-	padding : 0 0.5em; 
+	display : block;
+	float : left;
+	margin-left: 60px;
 	list-style-type : none;
-	margin-right: 40px;
-	border-width:5px;	
-    
-
-}
-
-ul {
 	background-color: black;
-	text-align: center;
-	border-color: white;
-	
+	height : 41px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
-a {
+/* Mise en forme */
+
+nav a {
+
 	text-decoration: none;
 	color:white;
 
 }
 
+footer a {
+
+	text-decoration: none;
+	color:black;
+
+}
+
+strong {
+
+	color:black;
+	font-size: 1.1em;
+}
+
 .buko {
+
 	margin-left:10px;
 
 	
 } 
+
 .tee {
+
 	margin-left: 50px;
 }
 
 
 
 .logos {
+
 	width: 50px; 
 	font-size: 10px;
 	height: 50px;
@@ -53,12 +81,77 @@ a {
 }
 
 footer {
+
+	text-align: center;
+	
+
+}
+
+
+ h3 {
+
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+
+
+}
+
+.clear {
+
+		clear: both;
+}
+
+.barre {
+
+	float: left;
+	width: 4px;
+}
+
+
+/* Responsive design */
+
+@media (max-width:320px) {  /*small mobile*/
+  h4 {
+    background-color: red;
+  }
+}
+@media (min-width:321px) and (max-width:959px) {  
+  h1 {
+    background-color: green; 
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  
+    h1
+    {background-color: blue;
+  }
+}
+@media (min-width:1600px) {  
+  h1 {
+    background-color: yellow;
+  }
+}
+
+
+#marque {
+	width: 400px;
+	height: 200px;
+	float: left;
+
+}
+
+.concept {
+	display: block;
 	text-align: center;
 
 }
 
 
-h3 {
 
-	font-family:'Satisfy', cursive;
+.contact {
+
+	color: black;
+}
+
+p {
+	font-family: Verdana;
 }
