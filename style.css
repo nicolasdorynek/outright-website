@@ -1,3 +1,5 @@
+/* Balises HTML5 */
+
 
 header {
 
@@ -55,16 +57,11 @@ strong {
 	font-size: 10px;
 	height: 50px;
 	margin: 20px 20px 20px 20px;
-
 }
 
 footer {
 
 	text-align: center;
-	background-color: black;
-	bottom:0;
-	left:0;
-	height:100px;
 
 
 }
@@ -74,6 +71,7 @@ footer {
 
 	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
+
 
 }
 
@@ -107,21 +105,21 @@ footer {
 
 .contact {
 
-	color: white;
-
-
-}
-.follow {
-	color: white;
+	color: black;
 }
 
 p {
 	font-family: Verdana;
-	color: white;
 }
 
 
-.fa-2x {
-	color:white;
+
+* .btn {
+	background-color: black;
+	
+}
+
+hr {
+	font-style: dashed;
 }
 
