@@ -1,58 +1,61 @@
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 header {
 
-	height: 100px;	
+	height: 100px;
+	position: right;	
 
 }
 	
+
 body {
     
     color: black;
-    padding: 0px;
+}
+
+
+* li {
+	
+	display : inline;
+	padding : 0 0.5em; 
+	list-style-type : none;
+	margin-right: 40px;
+	border-width:5px;	
+    
 
 }
 
-nav li {
+ul {
 	
-	display : block;
-	float : left;
-	margin-left: 60px;
-	list-style-type : none;
+	text-align: center;
+	border-color: white;
 	height : 41px;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+
 a {
-
 	text-decoration: none;
-	color:black;
+	color:white;
 
-}
-
-strong {
-
-	color:black;
-	font-size: 1.1em;
 }
 
 .buko {
-
 	margin-left:10px;
 
 	
 } 
-
 .tee {
-
 	margin-left: 50px;
 }
 
 
 
 .logos {
-
 	width: 50px; 
 	font-size: 10px;
 	height: 50px;
@@ -60,10 +63,12 @@ strong {
 }
 
 footer {
-
 	text-align: center;
 
+
 }
+
+
 
 
  h3 {
@@ -100,8 +105,6 @@ footer {
 
 }
 
-
-
 .contact {
 
 	color: black;
@@ -122,3 +125,7 @@ hr {
 	font-style: dashed;
 }
 
+.container-fluid {
+
+	position: right;
+}
